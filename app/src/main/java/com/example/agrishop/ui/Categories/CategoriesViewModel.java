@@ -1,16 +1,16 @@
-package com.example.agrishop.ui.notifications;
+package com.example.agrishop.ui.Categories;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class CategoriesViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public CategoriesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("The cart items");
+        mText.setValue("Categories for various products");
     }
 
     public LiveData<String> getText() {

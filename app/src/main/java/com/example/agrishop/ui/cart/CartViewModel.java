@@ -1,16 +1,16 @@
-package com.example.agrishop.ui.dashboard;
+package com.example.agrishop.ui.cart;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class CartViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public CartViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Categories for various products");
+        mText.setValue("The cart items");
     }
 
     public LiveData<String> getText() {
