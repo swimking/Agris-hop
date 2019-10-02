@@ -22,9 +22,4 @@
         android:name="com.example.agrishop.ui.cart.CartFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
-    <fragment
-        android:id="@+id/user_Profile"
-        android:name="com.example.agrishop.User_Profile"
-        android:label="fragment_user__profile"
-        tools:layout="@layout/fragment_user__profile" />
 </navigation>
