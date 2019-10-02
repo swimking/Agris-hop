@@ -15,9 +15,5 @@
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_shopping_cart_black_24dp"
         android:title="@string/Cart" />
-    <item
-        android:id="@+id/User_Account"
-        android:icon="@drawable/ic_account_circle_black_24dp"
-        android:title="@string/Account" />
 
 </menu>
