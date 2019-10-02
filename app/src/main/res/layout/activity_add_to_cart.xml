@@ -78,7 +78,7 @@
         android:layout_width="46dp"
         android:layout_height="43dp"
         app:srcCompat="@drawable/ic_chevron_left_black_24dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="17dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
