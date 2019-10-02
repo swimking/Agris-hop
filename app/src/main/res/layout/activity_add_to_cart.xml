@@ -22,7 +22,7 @@
         android:layout_height="41dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Quantity"
+        android:text="Quantit"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="510dp" />
 
